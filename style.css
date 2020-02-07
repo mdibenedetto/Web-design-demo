@@ -1,0 +1,71 @@
+h1{
+    margin: auto;
+    display: flex;
+}
+
+div{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nav{
+    height: 100px;
+    background: lightblue;
+}
+
+.hero-image{
+    height: 400px;
+    background: lightyellow;
+    clear: both;
+}
+
+.about-us{
+    height: 400px;
+    background: lightblue;
+    float: left;
+    width: calc( 67% - 7.5px );
+    margin-right: 15px;
+}
+
+.social{
+    height: 400px;
+    background: lightyellow;
+    float: left;
+    width: calc( 33% - 7.5px );
+}
+
+.case-study{
+    height: 400px;
+    background: lightblue;
+    clear: both;
+}
+
+.who-we-are{
+    height: 400px;
+    background: lightyellow;
+    float: left;
+    width: calc( 33.3% - 10px );
+    margin-right: 15px;
+}
+
+.what-we-do{   
+    height: 400px;
+    background: lightblue;
+    float: left;
+    width: calc( 33.3% - 10px );
+    margin-right: 15px;
+}
+
+.join-us{
+    height: 400px;
+    background: lightyellow;
+    float: left;
+    width: calc( 33.3% - 10px );
+}
+
+.case-study{
+    clear: both;
+    height: 100px;
+    background: lightyellow;
+}
