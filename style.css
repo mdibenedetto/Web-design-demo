@@ -1,3 +1,10 @@
+:root {
+    --blue-color: #ddecf3;
+    --blue-border:#bae1f3;
+    --orange-color: #f9ebd2;
+    --orange-border:#fbdea9;
+}
+
 h1{
     margin: auto;
     display: flex;
@@ -7,65 +14,74 @@ div{
     margin-bottom: 15px;
     display: flex;
     align-items: center;
+    border: 1px solid;
 }
 
 .nav{
     height: 100px;
-    background: lightblue;
+    background: var(--blue-color);
+    border-color: var(--blue-border);
 }
 
 .hero-image{
     height: 400px;
-    background: lightyellow;
+    background: var(--orange-color);
+    border-color: var(--orange-border);
     clear: both;
 }
 
 .about-us{
     height: 400px;
-    background: lightblue;
+    background: var(--blue-color);
+    border-color: var(--blue-border);
     float: left;
-    width: calc( 67% - 7.5px );
+    width: calc( 67% - 7.5px - 2px);
     margin-right: 15px;
 }
 
 .social{
     height: 400px;
-    background: lightyellow;
+    background: var(--orange-color);
+    border-color: var(--orange-border);
     float: left;
-    width: calc( 33% - 7.5px );
+    width: calc( 33% - 7.5px - 2px);
 }
 
 .case-study{
     height: 400px;
-    background: lightblue;
+    background: var(--blue-color);
     clear: both;
 }
 
 .who-we-are{
     height: 400px;
-    background: lightyellow;
+    background: var(--orange-color);
+    border-color: var(--orange-border);
     float: left;
-    width: calc( 33.3% - 10px );
+    width: calc( 33.3% - 10px - 2px);
     margin-right: 15px;
 }
 
 .what-we-do{   
     height: 400px;
-    background: lightblue;
+    background: var(--blue-color);
+    border-color: var(--blue-border);
     float: left;
-    width: calc( 33.3% - 10px );
+    width: calc( 33.3% - 10px - 2px);
     margin-right: 15px;
 }
 
 .join-us{
     height: 400px;
-    background: lightyellow;
+    background: var(--orange-color);
+    border-color: var(--orange-border);
     float: left;
-    width: calc( 33.3% - 10px );
+    width: calc( 33.3% - 10px - 2px);
 }
 
 .case-study{
     clear: both;
     height: 100px;
-    background: lightyellow;
+    background: var(--orange-color);
+    border-color: var(--orange-border);
 }
