@@ -1,2 +1,2 @@
 # demo-nci-wd
-[View Dememo](https://mdibenedetto.github.io/demo-nci-wd/)
+[View Demo](https://mdibenedetto.github.io/demo-nci-wd/)
