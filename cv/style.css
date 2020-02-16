@@ -1,0 +1,62 @@
+  body {
+    font-size: 22px;
+  }
+  
+  h1, h2 {
+      margin: 0.3em 0;
+  }
+  
+  main{
+    margin: 0 auto;
+    max-width: 920px;
+  }
+  
+  main > section {
+    margin:15px 0;
+  }
+  
+  main > section > section{
+    display: flex;
+  }
+  
+  section.education section{ 
+     display: inline-block;
+  }
+  
+  .key-skills .content{
+      font-style: italic;
+  }
+   
+  .job-history  section { 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .job{
+    display: flex;
+    flex-direction: row; 
+  }
+  
+  .job:after {
+    content:"";
+    height: 1px;
+    width: 100%;
+    background: lightgray;
+    margin: 5px 0
+  }
+  
+  .job > .title{ 
+    width: 100px;
+  }
+  
+  .job > section,
+  .education > section,
+  .languages > section
+  {
+    margin:5px 0;
+  }
+  
+  .title{
+    font-weight: bold; 
+    display: inline-block;
+  }

@@ -1,0 +1,76 @@
+.container {
+  max-width: 820px;
+  margin: auto;
+  border: 1px solid;
+  padding: 20px 15px;
+}
+
+.container > div {
+  margin: 5px;
+}
+
+.nav-bar {
+  background-color: #75a9f9;
+  padding: 15px;
+  display: flex;
+}
+
+.nav-links span {
+    margin: 0 40px;
+}
+
+
+.nav-bar .nav-links {
+  display: inline-flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-start;
+  color: white;
+  font-weight: bold;
+  border: 0;
+}
+
+.bg-image {
+  height: 315px;
+  background-image: url(./images/student-close-up.jpg);
+  background-repeat: no-repeat;
+  background-size: contain; 
+  position: relative;
+}
+
+.bg-image .bg-content {
+  color: white;
+  position: absolute;
+  top: 120px; 
+  left: 95px;
+  width: 268px;
+}
+
+.bg-image .bg-content .bg-content-title
+{
+    display: block;
+}
+
+.footer { 
+  display: flex;
+}
+
+.footer .left,
+.footer .right { 
+  height: 185px;
+  border: 1px solid;
+  width: calc(50% - 2px - 2.5px);
+  height: auto;
+}
+
+.footer .left {
+  margin-right: 5px;
+}
+
+.footer figure {
+  margin: 20px;
+}
+
+.footer img {
+  width: 100%;
+}
