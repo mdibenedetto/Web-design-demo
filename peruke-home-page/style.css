@@ -90,28 +90,36 @@
 }
 
 
+
+
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightyellow;
-    }
-
-    .container * {
-        height: 70px;
-    }
-
-
-    .nav {
-      background-color: lightcoral;
-    }
-
-    .middle-1{
-        flex-wrap: wrap;
-    }
-
-    .middle-1 .right,
-    .middle-1 .left  {
-        width: 100%;
-      }
-      
-     
+  body {
+    background-color: lightyellow;
   }
+
+  .container * {
+    height: 70px;
+  }
+
+  .nav {
+    background-color: lightcoral;
+  }
+
+  .middle-1 {
+    flex-wrap: wrap;
+  }
+
+  .middle-1 .right,
+  .middle-1 .left {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
+
+
