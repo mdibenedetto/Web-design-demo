@@ -1,4 +1,4 @@
-# Demo college NCI - Web Design
+# Web Design
 ## Demos
 
 [CV](https://mdibenedetto.github.io/nci-wd-web-design-demo/cv/index.html)
