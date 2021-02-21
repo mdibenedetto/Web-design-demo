@@ -9,4 +9,4 @@
 
 ## 
 
-[CA - 1 - Home page](https://mdibenedetto.github.io/Web-design-demo/ca-1-home-page/index.html)
+[College - Home page](https://mdibenedetto.github.io/Web-design-demo/ca-1-home-page/index.html)
